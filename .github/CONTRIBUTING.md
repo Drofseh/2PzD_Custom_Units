@@ -23,3 +23,26 @@ It will be evaluated and responded to.
 
 # Pull Requests
 As an alternative to reporting issues or requesting feature, if you're willing to do the work, please feel free to create a [pull request](https://github.com/Drofseh/2PzD_Custom_Units/pulls) with your new feature in it.
+
+## Pull Requests Guide
+
+Inheritance for units and vehicles shall be from an IFA3 class whenever possible.
+If the faction cannot reasonably inherit from an IFA3 class, then classes from other mods may be used.
+For example new US classes must inherit from an IFA3 class, while new Japanese classes may inherit from FOW as IFA3 has no Japanese content.
+
+Base classes shall go in config.cpp so all other files may use them as needed.
+New classes shall go in their own .hpp file and that file will be included in the config.cpp file.
+For example, German Wehrmacht units for 1939 January will go in their own .hpp which will be in the config.cpp like this:
+```
+class cfgVehicles {
+
+    class LIB_GER_Soldier_base;
+
+    #include "units\german\G_1939_Jan.hpp"
+
+}; //End cfgVehicles
+```
+
+## Code Style Guide
+
+The [ACE3 Code Style Guide](https://ace3mod.com/wiki/development/coding-guidelines.html#5-code-style) should be followed when making a contribution.
