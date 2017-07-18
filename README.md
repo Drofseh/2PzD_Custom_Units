@@ -11,3 +11,6 @@
 
 #### Feature Requests, Issues, Pull Requests
 Please check the [here](https://github.com/Drofseh/2PzD_Custom_Units/blob/master/.github/CONTRIBUTING.md) for information on these topics.
+
+#### Acknowlegements
+[ACE3](https://github.com/acemod/ACE3) whose Contributing, Issue Template, and Pull Request Template files I used as guides to make my own.
