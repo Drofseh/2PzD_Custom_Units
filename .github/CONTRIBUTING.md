@@ -26,12 +26,28 @@ As an alternative to reporting issues or requesting feature, if you're willing t
 
 ## Pull Requests Guide
 
+### Code Style Guide
+
+The [ACE3 Code Style Guide](https://ace3mod.com/wiki/development/coding-guidelines.html#5-code-style) should be followed when making a contribution.
+
+### Names:
+English names for roles will be preferred, with the exception of German units.
+
+All names will use modern English alphabet characters with no accents.
+
+Characters like ü do not display properly in the asset browser.
+
+### Inheritance:
 Inheritance for units and vehicles shall be from an IFA3 class whenever possible.
 If the faction cannot reasonably inherit from an IFA3 class, then classes from other mods may be used.
+
 For example new US classes must inherit from an IFA3 class, while new Japanese classes may inherit from FOW as IFA3 has no Japanese content.
 
+### File Structure:
 Base classes shall go in config.cpp so all other files may use them as needed.
+
 New classes shall go in their own .hpp file and that file will be included in the config.cpp file.
+
 For example, German Wehrmacht units for 1939 January will go in their own .hpp which will be in the config.cpp like this:
 ```
 class cfgVehicles {
@@ -42,7 +58,3 @@ class cfgVehicles {
 
 }; //End cfgVehicles
 ```
-
-## Code Style Guide
-
-The [ACE3 Code Style Guide](https://ace3mod.com/wiki/development/coding-guidelines.html#5-code-style) should be followed when making a contribution.
