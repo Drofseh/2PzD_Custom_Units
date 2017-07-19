@@ -43,6 +43,14 @@ If the faction cannot reasonably inherit from an IFA3 class, then classes from o
 
 For example new US classes must inherit from an IFA3 class, while new Japanese classes may inherit from FOW as IFA3 has no Japanese content.
 
+Once a 2PzD faction has established classes then future classes will inherit from them.
+
+For example a Wehrmacht rifleman from 1939 will inherit from an IFA3 class
+`class 2PzD_G_39_Rifle : LIB_GER_Soldier_base {};`
+
+But a rifleman from later in the war will inherit from the new class
+`class 2PzD_G_40_Jan_Rifle : 2PzD_G_39_Rifle {};`
+
 ### File Structure:
 Base classes shall go in config.cpp so all other files may use them as needed.
 
