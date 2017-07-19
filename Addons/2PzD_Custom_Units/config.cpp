@@ -19,8 +19,6 @@ class CfgPatches {
 
  }; //End CfgPatches
 
-class EventHandlers;
-
 class CfgFactionClasses {
 
     //All new factions should go in their own files and then be #include here.

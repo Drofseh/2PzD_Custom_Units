@@ -290,7 +290,7 @@
         uniformClass = "fow_u_ger_m43_01_private";
     };
 
-    class 2PzD_G_39_Gren : LIB_GER_Soldier_base {
+    /*class 2PzD_G_39_Gren : LIB_GER_Soldier_base {
         //This grenadier class is on hold because I can't get the Schiessbecher to spawn properly, 
         //probably because IFA has done super weird things to get it to work the way it does
         displayName = "Grenadier";
@@ -317,11 +317,7 @@
         respawnWeapons[] = {"LIB_K98","Throw","Put"};
 
         uniformClass = "fow_u_ger_m43_01_private";
-
-        class EventHandlers: EventHandlers {
-            init = "_this select 0 addPrimaryWeaponItem 'LIB_ACC_GW_SB_Empty'";
-        };
-    };
+    };*/
 
     class 2PzD_G_39_MG : 2PzD_G_39_Rifle {
         displayName = "MG-Richtschutze";
