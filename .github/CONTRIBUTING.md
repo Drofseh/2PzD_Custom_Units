@@ -45,9 +45,11 @@ For example new US classes must inherit from an IFA3 class, while new Japanese c
 Once a 2PzD faction has established classes then future classes will inherit from them.
 
 For example a Wehrmacht rifleman from 1939 will inherit from an IFA3 class
+
 `class 2PzD_G_39_Rifle : LIB_GER_Soldier_base {};`
 
 But a rifleman from later in the war will inherit from the new class
+
 `class 2PzD_G_40_Jan_Rifle : 2PzD_G_39_Rifle {};`
 
 ### File Structure:
@@ -81,3 +83,11 @@ For template loadouts that have randomized weapons, which is nearly all of them,
 Additional classes may be created that are equiped with weapons that have a lower % chance to spawn, but they should be used infrequently when adding them to groups.
 
 For example, a early 1943 USMC Squad should not have very many M1 Garands.
+
+### Groups:
+
+Groups shall mirror exactly the compositions from the template, or be a subsection thereof.
+
+For example, the UK could have a `Rifle Section` as a single group and also have a `Rifle Team` and `Gun Team` as separate placeable groups.
+
+Additional small groups just as a `Sentry Team` or similar also ok.
