@@ -1,5 +1,5 @@
 
-    class 2PzD_G_WHR_39 {
+    class 2PzD_Ger_WHR_39 {
 
         displayName = "!2PzD Wehrmacht 1939";
         icon = "";

@@ -1,7 +1,7 @@
     /*
     class Example_Group {
 
-        faction = "2PzD_G_WHR_39";
+        faction = "2PzD_Ger_WHR_39";
         name = "ExampleGroup";
         side = 1;
 

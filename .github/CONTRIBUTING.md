@@ -6,7 +6,6 @@ To do this try to reproduce the issue with using only IFA, FOW, LEN, and this mo
 
 Indicate if the issue appears on stable or development version.
 
-
 ## Reporting the issue
 Head over to the [GitHub issue tracker](https://github.com/Drofseh/2PzD_Custom_Units/issues) and press the [New issue](https://github.com/Drofseh/2PzD_Custom_Units/issues/new) button in the top right corner.
 
@@ -52,6 +51,10 @@ But a rifleman from later in the war will inherit from the new class
 `class 2PzD_G_40_Jan_Rifle : 2PzD_G_39_Rifle {};`
 
 ### File Structure:
+Each Faction will have its own Addon folder.
+`Addons\2PzD_Custom_British_Units` or
+`Addons\2PzD_Custom_German_Units` for example
+
 Base classes shall go in config.cpp so all other files may use them as needed.
 
 New classes shall go in their own .hpp file and that file will be included in the config.cpp file.
@@ -62,7 +65,19 @@ class cfgVehicles {
 
     class LIB_GER_Soldier_base;
 
-    #include "units\german\G_1939_Jan.hpp"
+    #include "units\WHR_1939.hpp"
 
 }; //End cfgVehicles
 ```
+
+### Units:
+
+Units shall adhere closely to the compositions and their loadouts as found in the 2PzD Mission template.
+
+In general, create a new unit class for each unique slot in a composition, and then base the gear that class carries on the loadout that slot is assigned.
+
+For template loadouts that have randomized weapons, which is nearly all of them, generally use the weapon and associated magazines that have the highest % chance to be chosen.
+
+Additional classes may be created that are equiped with weapons that have a lower % chance to spawn, but they should be used infrequently when adding them to groups.
+
+For example, a early 1943 USMC Squad should not have very many M1 Garands.
