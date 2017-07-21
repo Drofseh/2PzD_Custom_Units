@@ -42,13 +42,17 @@ class CfgGroups {
 
         class 2PzD_Wehrmacht_1939 {
             author = "Wilhelm Haas";
-            name = "2PzD Wehrmacht 1939";
+            name = "!2PzD Wehrmacht 1939";
 
             class Infantry {
                 name = "Infantry";
 
-                // #include "compositions\1939\example_group.hpp"
-                #include "compositions\1939\squad_infantry.hpp"
+                #include "compositions\WHR\1939\Squad_Infantry.hpp"
+                #include "compositions\WHR\1939\Company_HQ.hpp"
+                #include "compositions\WHR\1939\Platoon_HQ.hpp"
+                #include "compositions\WHR\1939\Tank_Crew.hpp"
+                #include "compositions\WHR\1939\Team_HMG.hpp"
+                #include "compositions\WHR\1939\Team_Mortar.hpp"
             };
 
         };
