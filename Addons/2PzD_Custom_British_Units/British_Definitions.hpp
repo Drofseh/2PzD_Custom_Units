@@ -9,6 +9,7 @@
 #define UK_Mags_LeeEn =     "fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303"
 #define UK_Mags_Thmp20 =    "LIB_20Rnd_45ACP_M1_2PzD","LIB_20Rnd_45ACP_M1_2PzD","LIB_20Rnd_45ACP_M1_2PzD"
 #define UK_Mags_Thmp30 =    "LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP"
+#define UK_Mags_ThmpMix =   "LIB_20Rnd_45ACP_M1_2PzD","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP"
 #define UK_Mags_Sten =      "LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19"
 #define UK_Mags_Bren =      "fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"
 #define UK_Mags_Web455 =    "fow_6Rnd_455","fow_6Rnd_455","fow_6Rnd_455","fow_6Rnd_455",

@@ -38,7 +38,7 @@
         scopeCurator = 2;
 
         //Items
-        backpack = "";
+        backpack = "fow_b_uk_p37";
 
         Items[] = {UK_Def_EqI};
         RespawnItems[] = {UK_Def_EqI};
@@ -94,7 +94,7 @@
         scopeCurator = 2;
 
         //Items
-        backpack = "";
+        backpack = "fow_b_uk_p37";
 
         Items[] = {UK_Def_EqI};
         RespawnItems[] = {UK_Def_EqI};
@@ -109,33 +109,6 @@
         respawnWeapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
 
         uniformClass = "fow_u_uk_bd40_sergeant";
-    };
-
-    class 2PzD_UK_Army_39_Sig : fow_s_uk_base {
-        displayName = "Signaller";
-        editorSubcategory = "EdSubcat_Personnel";
-        faction = "2PzD_UK_Army_39";
-        icon = "iconManEngineer";
-        scope = 2;
-        scopeArsenal = 0;
-        scopeCurator = 2;
-
-        //Items
-        backpack = "fow_b_us_radio";
-
-        Items[] = {UK_Def_EqI};
-        RespawnItems[] = {UK_Def_EqI};
-
-        linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL};
-        respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL};
-
-        magazines[] = {UK_Mags_LeeEn,"SmokeShell","HandGrenade"};
-        respawnMagazines[] = {UK_Mags_LeeEn,"SmokeShell","HandGrenade"};
-
-        weapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
-        respawnWeapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
-
-        uniformClass = "fow_u_uk_bd40_private";
     };
 
     class 2PzD_UK_Army_39_Med : fow_s_uk_base {
@@ -158,6 +131,33 @@
 
         magazines[] = {UK_Mags_LeeEn,"SmokeShell"};
         respawnMagazines[] = {UK_Mags_LeeEn,"SmokeShell"};
+
+        weapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
+        respawnWeapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
+
+        uniformClass = "fow_u_uk_bd40_private";
+    };
+
+    class 2PzD_UK_Army_39_Sig : fow_s_uk_base {
+        displayName = "Signaller";
+        editorSubcategory = "EdSubcat_Personnel";
+        faction = "2PzD_UK_Army_39";
+        icon = "iconManEngineer";
+        scope = 2;
+        scopeArsenal = 0;
+        scopeCurator = 2;
+
+        //Items
+        backpack = "fow_b_us_radio";
+
+        Items[] = {UK_Def_EqI};
+        RespawnItems[] = {UK_Def_EqI};
+
+        linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL};
+        respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL};
+
+        magazines[] = {UK_Mags_LeeEn,"SmokeShell","HandGrenade"};
+        respawnMagazines[] = {UK_Mags_LeeEn,"SmokeShell","HandGrenade"};
 
         weapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
         respawnWeapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
@@ -440,7 +440,7 @@
         displayName = "Boys Rifle Team Leader";
 
         //Items
-        backpack = "fow_b_uk_bergenpack";
+        backpack = "fow_b_uk_p37";
 
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL,UK_Ldr_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL,UK_Ldr_EqL};
@@ -461,7 +461,7 @@
         scopeCurator = 2;
 
         //Items
-        backpack = "fow_b_uk_bergenpack";
+        backpack = "fow_b_uk_p37";
 
         Items[] = {UK_Def_EqI};
         RespawnItems[] = {UK_Def_EqI};
