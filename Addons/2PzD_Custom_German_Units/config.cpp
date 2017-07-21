@@ -48,7 +48,7 @@ class CfgGroups {
                 name = "Infantry";
 
                 // #include "compositions\1939\example_group.hpp"
-
+                #include "compositions\1939\squad_infantry.hpp"
             };
 
         };
