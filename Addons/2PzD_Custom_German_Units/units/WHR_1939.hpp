@@ -362,7 +362,7 @@
     };
 
     class 2PzD_G_WHR_39_MedS : LIB_GER_Soldier_base {
-        displayName = "Hilfs-Krankenträger";
+        displayName = "Hilfs-Krankentrager";
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManMedic";
