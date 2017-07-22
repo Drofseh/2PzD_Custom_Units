@@ -12,8 +12,8 @@
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_sten",UK_Def_EqL,UK_Ldr_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_sten",UK_Def_EqL,UK_Ldr_EqL};
 
-        magazines[] = {UK_Mags_Thmp20,UK_Mags_Thmp20,"SmokeShell","SmokeShell","HandGrenade",UK_Mags_M2HE};
-        respawnMagazines[] = {UK_Mags_Thmp20,UK_Mags_Thmp20,"SmokeShell","SmokeShell","HandGrenade",UK_Mags_M2HE};
+        magazines[] = {UK_Mags_Thmp20,UK_Mags_Thmp20,"SmokeShell","SmokeShell","HandGrenade"};
+        respawnMagazines[] = {UK_Mags_Thmp20,UK_Mags_Thmp20,"SmokeShell","SmokeShell","HandGrenade"};
 
         weapons[] = {"LIB_M1928_Thompson","Throw","Put"};
         respawnWeapons[] = {"LIB_M1928_Thompson","Throw","Put"};
@@ -32,8 +32,8 @@
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_sten",UK_Def_EqL,UK_Ldr_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_sten",UK_Def_EqL,UK_Ldr_EqL};
 
-        magazines[] = {UK_Mags_Thmp20,UK_Mags_Thmp20,"SmokeShell","SmokeShell","HandGrenade",UK_Mags_M2HE};
-        respawnMagazines[] = {UK_Mags_Thmp20,UK_Mags_Thmp20,"SmokeShell","SmokeShell","HandGrenade",UK_Mags_M2HE};
+        magazines[] = {UK_Mags_Thmp20,UK_Mags_Thmp20,"SmokeShell","SmokeShell","HandGrenade"};
+        respawnMagazines[] = {UK_Mags_Thmp20,UK_Mags_Thmp20,"SmokeShell","SmokeShell","HandGrenade"};
 
         weapons[] = {"LIB_M1928_Thompson","Throw","Put"};
         respawnWeapons[] = {"LIB_M1928_Thompson","Throw","Put"};

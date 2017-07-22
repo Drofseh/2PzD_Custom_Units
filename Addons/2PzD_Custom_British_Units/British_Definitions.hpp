@@ -3,7 +3,6 @@
 #define UK_Def_EqI          "ACE_EntrenchingTool""ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_tourniquet","ACE_Flashlight_MX991"
 #define UK_Def_EqL          "ItemCompass","ItemWatch"
 #define UK_Ldr_EqL          "ItemMap","LIB_Binocular_SU","ACE_MapTools"
-#define UK_Med_Eq           "ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_fieldDressing","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_elasticBandage","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_morphine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_epinephrine","ACE_tourniquet","ACE_tourniquet","ACE_surgicalKit","ACE_personalAidKit","ACE_personalAidKit","ACE_personalAidKit","ACE_personalAidKit","ACE_personalAidKit","ACE_salineIV_500"
 
 //Magazines
 #define UK_Mags_LeeEn       "fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303","fow_10Rnd_303"
@@ -11,7 +10,7 @@
 #define UK_Mags_Thmp30      "LIB_30Rnd_45ACP","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP"
 #define UK_Mags_ThmpMix     "LIB_20Rnd_45ACP_M1_2PzD","LIB_30Rnd_45ACP","LIB_30Rnd_45ACP"
 #define UK_Mags_Sten        "LEN_32Rnd_9x19","LEN_32Rnd_9x19","LEN_32Rnd_9x19"
-#define UK_Mags_Bren        "fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"
+#define UK_Mags_Bren        "fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren","fow_30Rnd_303_bren"
 #define UK_Mags_Web455      "fow_6Rnd_455","fow_6Rnd_455","fow_6Rnd_455","fow_6Rnd_455"
 #define UK_Mags_HiPwr       "LEN_13Rnd_9x19","LEN_13Rnd_9x19","LEN_13Rnd_9x19","LEN_13Rnd_9x19"
 #define UK_Mags_Welrd       "LEN_8Rnd_765x17_2PzD","LEN_8Rnd_765x17_2PzD","LEN_8Rnd_765x17_2PzD","LEN_8Rnd_765x17_2PzD"
