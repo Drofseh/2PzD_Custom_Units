@@ -168,7 +168,7 @@
     };
 
     class 2PzD_UK_Army_41_VCrew : 2PzD_UK_Army_39_VCrew {
-        displayName = "Tank Crew";
+        faction = "2PzD_UK_Army_41";
 
         //Items
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_sten",UK_Def_EqL};

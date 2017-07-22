@@ -355,7 +355,7 @@
     };
 
     class 2PzD_UK_Army_39_MGA : 2PzD_UK_Army_39_MG {
-        displayName = "Heavy Machine Gunner Assistant";
+        displayName = "Heavy Machine Gun Assistant";
 
         //Items
         backpack = "fow_b_uk_vickers_support";
