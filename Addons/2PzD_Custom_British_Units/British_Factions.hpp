@@ -26,6 +26,15 @@
 
     };
 
+    class 2PzD_UK_Army_43 {
+
+        displayName = "!2PzD British Army 1943";
+        icon = "";
+        priority = 1;
+        side = 1;
+
+    };
+
     class 2PzD_UK_Army_44 {
 
         displayName = "!2PzD British Army 1944";
