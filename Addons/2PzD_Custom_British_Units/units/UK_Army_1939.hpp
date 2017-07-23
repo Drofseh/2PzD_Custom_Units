@@ -3,6 +3,7 @@
 
     class 2PzD_UK_Army_39_CC : fow_s_uk_base {
         displayName = "Company Commander";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_CC.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconManOfficer";
@@ -29,7 +30,9 @@
     };
 
     class 2PzD_UK_Army_39_C2 : fow_s_uk_base {
+        //Needs LMort2 backpack
         displayName = "Company Sergeant Major";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_C2.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconManLeader";
@@ -38,7 +41,7 @@
         scopeCurator = 2;
 
         //Items
-        backpack = "";
+        backpack = "fow_b_uk_bergenpack_Mort2B_2PzD";
 
         Items[] = {UK_Def_EqI};
         RespawnItems[] = {UK_Def_EqI};
@@ -46,8 +49,8 @@
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL,UK_Ldr_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL,UK_Ldr_EqL};
 
-        magazines[] = {UK_Mags_LeeEn,"SmokeShell","SmokeShell","HandGrenade",UK_Mags_M2HE};
-        respawnMagazines[] = {UK_Mags_LeeEn,"SmokeShell","SmokeShell","HandGrenade",UK_Mags_M2HE};
+        magazines[] = {UK_Mags_LeeEn,"SmokeShell","SmokeShell","HandGrenade"};
+        respawnMagazines[] = {UK_Mags_LeeEn,"SmokeShell","SmokeShell","HandGrenade"};
 
         weapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
         respawnWeapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
@@ -59,6 +62,7 @@
 
     class 2PzD_UK_Army_39_PC : fow_s_uk_base {
         displayName = "Platoon Commander";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_PC.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconManOfficer";
@@ -85,7 +89,9 @@
     };
 
     class 2PzD_UK_Army_39_P2 : fow_s_uk_base {
+        //Needs LMort2 backpack
         displayName = "Platoon Sergeant";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_P2.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconManLeader";
@@ -94,7 +100,7 @@
         scopeCurator = 2;
 
         //Items
-        backpack = "";
+        backpack = "fow_b_uk_bergenpack_Mort2B_2PzD";
 
         Items[] = {UK_Def_EqI};
         RespawnItems[] = {UK_Def_EqI};
@@ -102,8 +108,8 @@
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL,UK_Ldr_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL,UK_Ldr_EqL};
 
-        magazines[] = {UK_Mags_LeeEn,"SmokeShell","SmokeShell","HandGrenade",UK_Mags_M2HE};
-        respawnMagazines[] = {UK_Mags_LeeEn,"SmokeShell","SmokeShell","HandGrenade",UK_Mags_M2HE};
+        magazines[] = {UK_Mags_LeeEn,"SmokeShell","SmokeShell","HandGrenade"};
+        respawnMagazines[] = {UK_Mags_LeeEn,"SmokeShell","SmokeShell","HandGrenade"};
 
         weapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
         respawnWeapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
@@ -111,8 +117,37 @@
         uniformClass = "fow_u_uk_bd40_sergeant";
     };
 
+    class 2PzD_UK_Army_39_Med : fow_s_uk_base {
+        displayName = "Medic";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_Med.jpg"
+        editorSubcategory = "EdSubcat_Personnel";
+        faction = "2PzD_UK_Army_39";
+        icon = "iconManMedic";
+        scope = 2;
+        scopeArsenal = 0;
+        scopeCurator = 2;
+
+        //Items
+        backpack = "fow_b_uk_p37_Med_2PzD";
+
+        Items[] = {UK_Def_EqI};
+        RespawnItems[] = {UK_Def_EqI};
+
+        linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL};
+        respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL};
+
+        magazines[] = {UK_Mags_LeeEn,"SmokeShell"};
+        respawnMagazines[] = {UK_Mags_LeeEn,"SmokeShell"};
+
+        weapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
+        respawnWeapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
+
+        uniformClass = "fow_u_uk_bd40_private";
+    };
+
     class 2PzD_UK_Army_39_Sig : fow_s_uk_base {
         displayName = "Signaller";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_Sig.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconManEngineer";
@@ -138,35 +173,9 @@
         uniformClass = "fow_u_uk_bd40_private";
     };
 
-    class 2PzD_UK_Army_39_Med : fow_s_uk_base {
-        displayName = "Medic";
-        editorSubcategory = "EdSubcat_Personnel";
-        faction = "2PzD_UK_Army_39";
-        icon = "iconManMedic";
-        scope = 2;
-        scopeArsenal = 0;
-        scopeCurator = 2;
-
-        //Items
-        backpack = "fow_b_uk_p37";
-
-        Items[] = {UK_Def_EqI};
-        RespawnItems[] = {UK_Def_EqI};
-
-        linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL};
-        respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL};
-
-        magazines[] = {UK_Mags_LeeEn,"SmokeShell"};
-        respawnMagazines[] = {UK_Mags_LeeEn,"SmokeShell"};
-
-        weapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
-        respawnWeapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
-
-        uniformClass = "fow_u_uk_bd40_private";
-    };
-
     class 2PzD_UK_Army_39_LMortG : fow_s_uk_base {
         displayName = "2"" Mortar Gunner";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_LMortG.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconManExplosive";
@@ -175,16 +184,16 @@
         scopeCurator = 2;
 
         //Items
-        backpack = "fow_b_uk_bergenpack";
+        backpack = "fow_b_uk_bergenpack_Mort2A_2PzD";
 
         Items[] = {UK_Def_EqI};
         RespawnItems[] = {UK_Def_EqI};
 
-        linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_officer",UK_Def_EqL,"ACE_MapTools","ACE_RangeTable_82mm"};
-        respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_officer",UK_Def_EqL,"ACE_MapTools","ACE_RangeTable_82mm"};
+        linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_officer","ACE_MapTools","ACE_RangeTable_82mm"};
+        respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_officer","ACE_MapTools","ACE_RangeTable_82mm"};
 
-        magazines[] = {UK_Mags_Web455,UK_Mags_M2HE,UK_Mags_M2HE};
-        respawnMagazines[] = {UK_Mags_Web455,UK_Mags_M2HE,UK_Mags_M2HE};
+        magazines[] = {UK_Mags_Web455};
+        respawnMagazines[] = {UK_Mags_Web455};
 
         weapons[] = {"fow_w_webley","LIB_M2_60_Barrel","Throw","Put"};
         respawnWeapons[] = {"fow_w_webley","LIB_M2_60_Barrel","Throw","Put"};
@@ -194,6 +203,7 @@
 
     class 2PzD_UK_Army_39_LMortA : 2PzD_UK_Army_39_LMortG {
         displayName = "2"" Mortar Assistant";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_LMortA.jpg"
 
         //Items
         weapons[] = {"fow_w_webley","LIB_M2_60_Tripod","Throw","Put"};
@@ -206,6 +216,7 @@
 
     class 2PzD_UK_Army_39_SL : fow_s_uk_base {
         displayName = "Section Leader";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_SL.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconManLeader";
@@ -233,6 +244,7 @@
 
     class 2PzD_UK_Army_39_TL : 2PzD_UK_Army_39_SL {
         displayName = "Team Leader";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_TL.jpg"
 
         //Items
         Items[] = {UK_Def_EqI};
@@ -246,6 +258,7 @@
 
     class 2PzD_UK_Army_39_Rif : fow_s_uk_base {
         displayName = "Rifleman";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_Rif.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconMan";
@@ -273,6 +286,7 @@
 
     class 2PzD_UK_Army_39_AR : 2PzD_UK_Army_39_Rif {
         displayName = "Bren Gunner";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_AR.jpg"
         icon = "iconManMG";
 
         //Items
@@ -281,8 +295,8 @@
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_bren",UK_Def_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_bren",UK_Def_EqL};
 
-        magazines[] = {UK_Mags_Bren,UK_Mags_Bren,"fow_30Rnd_303_bren","fow_30Rnd_303_bren","HandGrenade"};
-        respawnMagazines[] = {UK_Mags_Bren,UK_Mags_Bren,"fow_30Rnd_303_bren","fow_30Rnd_303_bren","HandGrenade"};
+        magazines[] = {"HandGrenade",UK_Mags_Bren};
+        respawnMagazines[] = {"HandGrenade",UK_Mags_Bren};
 
         weapons[] = {"fow_w_bren","Throw","Put"};
         respawnWeapons[] = {"fow_w_bren","Throw","Put"};
@@ -290,14 +304,17 @@
 
     class 2PzD_UK_Army_39_AAR : 2PzD_UK_Army_39_AR {
         displayName = "Bren Gun Assistant";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_AAR.jpg"
         icon = "iconManMG";
 
         //Items
+        backpack = "fow_b_uk_p37_AAR_2PzD";
+
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_bren","LIB_Binocular_SU",UK_Def_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_bren","LIB_Binocular_SU",UK_Def_EqL};
 
-        magazines[] = {UK_Mags_LeeEn,"ACE_SpareBarrel",UK_Mags_Bren,"HandGrenade"};
-        respawnMagazines[] = {UK_Mags_LeeEn,"ACE_SpareBarrel",UK_Mags_Bren,"HandGrenade"};
+        magazines[] = {UK_Mags_LeeEn,"HandGrenade"};
+        respawnMagazines[] = {UK_Mags_LeeEn,"HandGrenade"};
 
         weapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
         respawnWeapons[] = {"LEN_SMLE_No4Mk1","Throw","Put"};
@@ -305,20 +322,24 @@
 
     class 2PzD_UK_Army_39_ARAB : 2PzD_UK_Army_39_Rif {
         displayName = "Bren Gun Ammo Bearer";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_ARAB.jpg"
         icon = "iconMan";
 
         //Items
+        backpack = "fow_b_uk_p37_ARAB_2PzD";
+
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_bren",UK_Def_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_bren",UK_Def_EqL};
 
-        magazines[] = {UK_Mags_LeeEn,"HandGrenade",UK_Mags_Bren,UK_Mags_Bren,"fow_30Rnd_303_bren","fow_30Rnd_303_bren"};
-        respawnMagazines[] = {UK_Mags_LeeEn,"HandGrenade",UK_Mags_Bren,UK_Mags_Bren,"fow_30Rnd_303_bren","fow_30Rnd_303_bren"};
+        magazines[] = {UK_Mags_LeeEn,"HandGrenade"};
+        respawnMagazines[] = {UK_Mags_LeeEn,"HandGrenade"};
     };
 
 //Machine Gun Team
 
     class 2PzD_UK_Army_39_MGTL : 2PzD_UK_Army_39_TL {
         displayName = "Heavy Machine Gun Team Leader";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_MGTL.jpg"
 
         //Items
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL,UK_Ldr_EqL};
@@ -329,6 +350,7 @@
 
     class 2PzD_UK_Army_39_MG : fow_s_uk_base {
         displayName = "Heavy Machine Gunner";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_MG.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconManMG";
@@ -355,7 +377,8 @@
     };
 
     class 2PzD_UK_Army_39_MGA : 2PzD_UK_Army_39_MG {
-        displayName = "Heavy Machine Gunner Assistant";
+        displayName = "Heavy Machine Gun Assistant";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_MGA.jpg"
 
         //Items
         backpack = "fow_b_uk_vickers_support";
@@ -366,6 +389,7 @@
 
     class 2PzD_UK_Army_39_MGAB : 2PzD_UK_Army_39_Rif {
         displayName = "Heavy Machine Gun Ammo Bearer";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_MGAB.jpg"
 
         //Items
         backpack = "fow_b_uk_p37";
@@ -378,9 +402,10 @@
 
     class 2PzD_UK_Army_39_MortTL : 2PzD_UK_Army_39_TL {
         displayName = "3"" Mortar Team Leader";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_MortTL.jpg"
 
         //Items
-        backpack = "fow_b_uk_bergenpack";
+        backpack = "fow_b_uk_bergenpack_Mort3B_2PzD";
 
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL,UK_Ldr_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL,UK_Ldr_EqL};
@@ -393,6 +418,7 @@
 
     class 2PzD_UK_Army_39_MortG : fow_s_uk_base {
         displayName = "3"" Mortar Gunner";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_MortG.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconManExplosive";
@@ -401,7 +427,7 @@
         scopeCurator = 2;
 
         //Items
-        backpack = "fow_b_uk_bergenpack";
+        backpack = "fow_b_uk_bergenpack_Mort3A_2PzD";
 
         Items[] = {UK_Def_EqI};
         RespawnItems[] = {UK_Def_EqI};
@@ -420,6 +446,7 @@
 
     class 2PzD_UK_Army_39_MortA : 2PzD_UK_Army_39_MortG {
         displayName = "3"" Mortar Assistant";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_MortA.jpg"
 
         //Items
         weapons[] = {"fow_w_webley","LIB_BM37_Tripod","Throw","Put"};
@@ -428,8 +455,11 @@
 
     class 2PzD_UK_Army_39_MortAB : 2PzD_UK_Army_39_Rif {
         displayName = "3"" Mortar Ammo Bearer";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_MortAB.jpg"
 
         //Items
+        backpack = "fow_b_uk_bergenpack_Mort3B_2PzD";
+
         magazines[] = {UK_Mags_LeeEn,UK_Mags_M3HE,"LIB_1Rnd_82mm_Mo_HE","LIB_1Rnd_82mm_Mo_HE"};
         respawnMagazines[] = {UK_Mags_LeeEn,UK_Mags_M3HE,"LIB_1Rnd_82mm_Mo_HE","LIB_1Rnd_82mm_Mo_HE"};
     };
@@ -438,21 +468,23 @@
 
     class 2PzD_UK_Army_39_ATRTL : 2PzD_UK_Army_39_TL {
         displayName = "Boys Rifle Team Leader";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_ATRTL.jpg"
 
         //Items
-        backpack = "fow_b_uk_bergenpack";
+        backpack = "fow_b_uk_p37_ATR_2PzD";
 
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL,UK_Ldr_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL,UK_Ldr_EqL};
 
-        magazines[] = {UK_Mags_LeeEn,"SmokeShell","HandGrenade",UK_Mags_Boys};
-        respawnMagazines[] = {UK_Mags_LeeEn,"SmokeShell","HandGrenade",UK_Mags_Boys};
+        magazines[] = {UK_Mags_LeeEn,"SmokeShell","HandGrenade"};
+        respawnMagazines[] = {UK_Mags_LeeEn,"SmokeShell","HandGrenade"};
 
         uniformClass = "fow_u_uk_bd40_corporal";
     };
 
     class 2PzD_UK_Army_39_ATRG : fow_s_uk_base {
         displayName = "Boys Rifle Gunner";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_ATRG.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconManAT";
@@ -461,7 +493,7 @@
         scopeCurator = 2;
 
         //Items
-        backpack = "fow_b_uk_bergenpack";
+        backpack = "fow_b_uk_p37_ATR_2PzD";
 
         Items[] = {UK_Def_EqI};
         RespawnItems[] = {UK_Def_EqI};
@@ -469,8 +501,8 @@
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_officer",UK_Def_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_officer",UK_Def_EqL};
 
-        magazines[] = {UK_Mags_Web455,UK_Mags_Boys};
-        respawnMagazines[] = {UK_Mags_Web455,UK_Mags_Boys};
+        magazines[] = {UK_Mags_Web455};
+        respawnMagazines[] = {UK_Mags_Web455};
 
         weapons[] = {"fow_w_webley","LIB_PTRD","Throw","Put"};
         respawnWeapons[] = {"fow_w_webley","LIB_PTRD","Throw","Put"};
@@ -480,16 +512,20 @@
 
     class 2PzD_UK_Army_39_ATRAB : 2PzD_UK_Army_39_Rif {
         displayName = "Boys Rifle Ammo Bearer";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_ATRAB.jpg"
 
         //Items
-        magazines[] = {UK_Mags_LeeEn,"HandGrenade",UK_Mags_Boys};
-        respawnMagazines[] = {UK_Mags_LeeEn,"HandGrenade",UK_Mags_Boys};
+        backpack = "fow_b_uk_p37_ATR_2PzD";
+
+        magazines[] = {UK_Mags_LeeEn,"HandGrenade"};
+        respawnMagazines[] = {UK_Mags_LeeEn,"HandGrenade"};
     };
 
 //Tank Crew
 
     class 2PzD_UK_Army_39_VCom : fow_s_uk_base {
         displayName = "Tank Commander";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_VCom.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_UK_Army_39";
         icon = "iconManLeader";
@@ -517,13 +553,14 @@
 
     class 2PzD_UK_Army_39_VCrew : 2PzD_UK_Army_39_VCom {
         displayName = "Tank Crew";
+        editorPreview = "\2PzD_Custom_British_Units\images\editor previews\2PzD_UK_Army_39_VCrew.jpg"
         icon = "iconMan";
 
         //Items
-        backpack = "fow_b_uk_p37";
+        backpack = "fow_b_uk_p37_Tool_2PzD";
 
-        Items[] = {UK_Def_EqI,"ToolKit"};
-        RespawnItems[] = {UK_Def_EqI,"ToolKit"};
+        Items[] = {UK_Def_EqI};
+        RespawnItems[] = {UK_Def_EqI};
 
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_officer",UK_Def_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_officer",UK_Def_EqL};

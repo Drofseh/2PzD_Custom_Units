@@ -1,4 +1,8 @@
 # CUP-License (CUP-L), Version 1.0  
+
+The original text of the licence can be found [here](http://cup-arma3.org/license). Github Markdown does not allow the formatting to be perfectly transfered to this document.
+
+
 ## TL:DR Version:  
 ## You are allowed to:  
 * Play with this Mod/Addon in Arma series (Single or Multiplayer). Obviously.  

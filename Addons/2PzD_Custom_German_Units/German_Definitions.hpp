@@ -24,4 +24,4 @@
 #define G_Mags_MHE      "LIB_1Rnd_81mm_Mo_HE","LIB_1Rnd_81mm_Mo_HE","LIB_1Rnd_81mm_Mo_HE","LIB_1Rnd_81mm_Mo_HE"
 
 //Units
-#define WHR_1939  "2PzD_G_39_CC","2PzD_G_39_C2","2PzD_G_39_PC","2PzD_G_39_P2","2PzD_G_39_RTO","2PzD_G_39_Mess","2PzD_G_39_MedP","2PzD_G_39_SL","2PzD_G_39_S2","2PzD_G_39_S3","2PzD_G_39_Rifle","2PzD_G_39_MG","2PzD_G_39_MGA","2PzD_G_39_MGAB","2PzD_G_39_MedS","2PzD_G_39_MortTL","2PzD_G_39_MortG","2PzD_G_39_MortA","2PzD_G_39_MortAB","2PzD_G_39_HMGTL","2PzD_G_39_HMGG","2PzD_G_39_HMGA","2PzD_G_39_HMGAB","2PzD_G_39_VCom","2PzD_G_39_VCrew"
+#define WHR_1939        "2PzD_G_39_CC","2PzD_G_39_C2","2PzD_G_39_PC","2PzD_G_39_P2","2PzD_G_39_RTO","2PzD_G_39_Mess","2PzD_G_39_MedP","2PzD_G_39_SL","2PzD_G_39_S2","2PzD_G_39_S3","2PzD_G_39_Rifle","2PzD_G_39_MG","2PzD_G_39_MGA","2PzD_G_39_MGAB","2PzD_G_39_MedS","2PzD_G_39_MortTL","2PzD_G_39_MortG","2PzD_G_39_MortA","2PzD_G_39_MortAB","2PzD_G_39_HMGTL","2PzD_G_39_HMGG","2PzD_G_39_HMGA","2PzD_G_39_HMGAB","2PzD_G_39_VCom","2PzD_G_39_VCrew"
