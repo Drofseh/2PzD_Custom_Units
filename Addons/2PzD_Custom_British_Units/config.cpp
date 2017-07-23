@@ -9,7 +9,7 @@ class CfgPatches {
         author = "Wilhelm Haas";
 
         //Add all new 'vehicle' classes to the units array. This will give Zeus access to them.
-        units[] = {UK_Army_1939,UK_Army_1941};
+        units[] = {UK_Army_1939,UK_Army_1941,UK_Army_1943,UK_Army_1944,UK_Army_1945};
         weapons[] = {};
         requiredAddons[] = {"haas_wwii_rebalance"};
 
@@ -66,5 +66,8 @@ class cfgVehicles {
     //New units will be placed in their own folder and file and then be #include here.
     #include "units\UK_Army_1939.hpp"
     #include "units\UK_Army_1941.hpp"
+    #include "units\UK_Army_1943.hpp"
+    #include "units\UK_Army_1944.hpp"
+    #include "units\UK_Army_1945.hpp"
 
 }; //End cfgVehicles

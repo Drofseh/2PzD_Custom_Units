@@ -3,6 +3,7 @@
 
     class 2PzD_G_WHR_39_CC : LIB_GER_Soldier_base {
         displayName = "Kompaniefuhrer";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_CC.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManOfficer";
@@ -30,6 +31,7 @@
 
     class 2PzD_G_WHR_39_C2 : LIB_GER_Soldier_base {
         displayName = "Kompanietruppfuhrer";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_C2.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
@@ -59,6 +61,7 @@
 
     class 2PzD_G_WHR_39_PC : LIB_GER_Soldier_base {
         displayName = "Zugfuhrer";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_PC.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManOfficer";
@@ -86,6 +89,7 @@
 
     class 2PzD_G_WHR_39_P2 : LIB_GER_Soldier_base {
         displayName = "Zugtruppfuhrer";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_P2.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
@@ -113,6 +117,7 @@
 
     class 2PzD_G_WHR_39_RTO : LIB_GER_Soldier_base {
         displayName = "Funker";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_RTO.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManEngineer";
@@ -140,6 +145,7 @@
 
     class 2PzD_G_WHR_39_Mess : LIB_GER_Soldier_base {
         displayName = "Melder";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_Mess.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconMan";
@@ -166,6 +172,7 @@
     };
 
     class 2PzD_G_WHR_39_MedP : LIB_GER_Soldier_base {
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_MedP.jpg"
         displayName = "Krankentrager";
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
@@ -196,6 +203,7 @@
 
     class 2PzD_G_WHR_39_SL : LIB_GER_Soldier_base {
         displayName = "Gruppenfuhrer";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_SL.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
@@ -223,6 +231,7 @@
 
     class 2PzD_G_WHR_39_S2 : 2PzD_G_WHR_39_SL {
         displayName = "Stellvertretender Gruppenfuhrer";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_S2.jpg"
 
         //Items
         backpack = "B_LIB_GER_A_frame";
@@ -244,6 +253,7 @@
 
     class 2PzD_G_WHR_39_S3 : 2PzD_G_WHR_39_S2 {
         displayName = "Gefreiter";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_S3.jpg"
 
         //Items
         backpack = "B_LIB_GER_A_frame";
@@ -265,6 +275,7 @@
 
     class 2PzD_G_WHR_39_Rifle : LIB_GER_Soldier_base {
         displayName = "Gewehrschutze";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_Rifle.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconMan";
@@ -292,6 +303,7 @@
 
     class 2PzD_G_WHR_39_Gren : LIB_GER_Soldier_base {
         displayName = "Grenadier";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_Gren.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManExplosive";
@@ -323,6 +335,7 @@
 
     class 2PzD_G_WHR_39_MG : 2PzD_G_WHR_39_Rifle {
         displayName = "MG-Richtschutze";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_MG.jpg"
         icon = "iconManMG";
 
         //Items
@@ -340,6 +353,7 @@
 
     class 2PzD_G_WHR_39_MGA : 2PzD_G_WHR_39_Rifle {
         displayName = "MG-Hilfsschutze";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_MGA.jpg"
 
         //Items
         backpack = "fow_b_heer_ammo_belt";
@@ -353,6 +367,7 @@
 
     class 2PzD_G_WHR_39_MGAB : 2PzD_G_WHR_39_Rifle {
         displayName = "MG-Munitionsträger";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_MGAB.jpg"
 
         //Items
         backpack = "fow_b_heer_ammo_belt";
@@ -363,6 +378,7 @@
 
     class 2PzD_G_WHR_39_MedS : LIB_GER_Soldier_base {
         displayName = "Hilfs-Krankentrager";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_MedS.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManMedic";
@@ -394,6 +410,7 @@
 
     class 2PzD_G_WHR_39_MortTL : 2PzD_G_WHR_39_S3 {
         displayName = "Mortar Truppfuhrer";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_MortTL.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
@@ -413,6 +430,7 @@
 
     class 2PzD_G_WHR_39_MortG : 2PzD_G_WHR_39_Rifle {
         displayName = "Mortar Granatwerferschutzen";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_MortG.jpg"
         icon = "iconManExplosive";
 
         //Items
@@ -433,6 +451,7 @@
 
     class 2PzD_G_WHR_39_MortA : 2PzD_G_WHR_39_MortG {
         displayName = "Mortar Hilfsschutze";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_MortA.jpg"
         icon = "iconManExplosive";
 
         //Items
@@ -453,6 +472,7 @@
 
     class 2PzD_G_WHR_39_MortAB : 2PzD_G_WHR_39_Rifle {
         displayName = "Mortar Munitionstrager";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_MortAB.jpg"
         icon = "iconMan";
 
         //Items
@@ -469,6 +489,7 @@
 
     class 2PzD_G_WHR_39_HMGTL : 2PzD_G_WHR_39_S3 {
         displayName = "HMG Truppfuhrer";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_HMGTL.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
@@ -488,6 +509,7 @@
 
     class 2PzD_G_WHR_39_HMGG : 2PzD_G_WHR_39_Rifle {
         displayName = "HMG Richtschutze";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_HMGG.jpg"
         icon = "iconManMG";
 
         //Items
@@ -508,6 +530,7 @@
 
     class 2PzD_G_WHR_39_HMGA : 2PzD_G_WHR_39_HMGG {
         displayName = "HMG Hilfsschutze";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_HMGA.jpg"
 
         //Items
         linkedItems[] = {"fow_h_ger_m40_heer_01","fow_v_heer_k98_ass",G_Eq_DefL};
@@ -522,6 +545,7 @@
 
     class 2PzD_G_WHR_39_HMGAB : 2PzD_G_WHR_39_Rifle {
         displayName = "HMG Munitionstrager";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_HMGAB.jpg"
 
         //Items
         backpack = "B_LIB_GER_Tonister34_cowhide";
@@ -534,6 +558,7 @@
 
     class 2PzD_G_WHR_39_VCom : LIB_GER_Soldier_base {
         displayName = "Panzerkommandant";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_VCom.jpg"
         editorSubcategory = "EdSubcat_Personnel";
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
@@ -561,6 +586,7 @@
 
     class 2PzD_G_WHR_39_VCrew : 2PzD_G_WHR_39_VCom {
         displayName = "Panzerbesatzung";
+        editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_VCrew.jpg"
         icon = "iconMan";
 
         //Items
