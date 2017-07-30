@@ -6,7 +6,7 @@
 
 #### Custom ARMA units for use by the Zeus in [2. Panzer Division ARMA Community](https://2pzd.net/) missions.
 
-#### Version 0.1.0
+#### Version 0.1.1
 
 #### Requirements:
 * 2.PzD Modset
