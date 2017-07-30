@@ -42,7 +42,7 @@ class CfgGroups {
 
         class 2PzD_UK_Army_1939 {
             author = "Wilhelm Haas";
-            name = "!2PzD British Army 1939";
+            name = "!2PzD British Army 1939/40";
 
             class Infantry {
                 name = "Infantry";
