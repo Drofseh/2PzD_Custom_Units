@@ -33,6 +33,20 @@ class CfgEditorSubcategories {
 
 }; //End CfgEditorSubcategories
 
+class cfgVehicles {
+
+    //Base classes will be placed here for inheritance.
+    class fow_s_uk_base;
+
+    //New units will be placed in their own folder and file and then be #include here.
+    #include "units\UK_Army_1939.hpp"
+    #include "units\UK_Army_1941.hpp"
+    #include "units\UK_Army_1943.hpp"
+    #include "units\UK_Army_1944.hpp"
+    #include "units\UK_Army_1945.hpp"
+
+}; //End cfgVehicles
+
 class CfgGroups {
 
     //Groups will go in their own folders and files, then be #include in their own side specific class.
@@ -172,18 +186,3 @@ class CfgGroups {
     }; //End Indep
 
 }; //End CfgGroups
-
-class cfgVehicles {
-
-    //Base classes will be placed here for inheritance.
-    class fow_s_uk_base;
-    class LIB_GER_Soldier_base;
-
-    //New units will be placed in their own folder and file and then be #include here.
-    #include "units\UK_Army_1939.hpp"
-    #include "units\UK_Army_1941.hpp"
-    #include "units\UK_Army_1943.hpp"
-    #include "units\UK_Army_1944.hpp"
-    #include "units\UK_Army_1945.hpp"
-
-}; //End cfgVehicles

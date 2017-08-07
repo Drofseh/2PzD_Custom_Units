@@ -8,7 +8,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManOfficer";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -37,7 +37,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManLeader";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -67,7 +67,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManOfficer";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -96,7 +96,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManLeader";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -124,14 +124,14 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManMedic";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
         backpack = "fow_b_uk_p37_Med_2PzD";
 
-        Items[] = {UK_Def_EqI};
-        RespawnItems[] = {UK_Def_EqI};
+        Items[] = {UK_Def_EqI,UK_Med_EqI};
+        RespawnItems[] = {UK_Def_EqI,UK_Med_EqI};
 
         linkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL};
         respawnLinkedItems[] = {"fow_h_uk_mk2","fow_v_uk_base",UK_Def_EqL};
@@ -152,7 +152,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManEngineer";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -180,7 +180,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManExplosive";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -221,7 +221,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManLeader";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -263,7 +263,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconMan";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -355,7 +355,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManMG";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -423,7 +423,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManExplosive";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -489,7 +489,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManAT";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -530,7 +530,7 @@
         faction = "2PzD_UK_Army_39";
         icon = "iconManLeader";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
