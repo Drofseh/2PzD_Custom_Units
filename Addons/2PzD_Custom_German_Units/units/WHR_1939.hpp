@@ -8,7 +8,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManOfficer";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -36,7 +36,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -66,7 +66,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManOfficer";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -94,7 +94,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -122,7 +122,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManEngineer";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -150,7 +150,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconMan";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -178,7 +178,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManMedic";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -208,7 +208,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -232,6 +232,7 @@
     class 2PzD_G_WHR_39_S2 : 2PzD_G_WHR_39_SL {
         displayName = "Stellvertretender Gruppenfuhrer";
         editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_S2.jpg"
+        //icon = "\2PzD_Custom_German_Units\images\icons\SGF.paa";
 
         //Items
         backpack = "B_LIB_GER_A_frame";
@@ -280,7 +281,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconMan";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -308,7 +309,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManExplosive";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -354,12 +355,16 @@
     class 2PzD_G_WHR_39_MGA : 2PzD_G_WHR_39_Rifle {
         displayName = "MG-Hilfsschutze";
         editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_MGA.jpg"
+        icon = "iconManMG";
 
         //Items
         backpack = "fow_b_heer_ammo_belt";
 
-        Items[] = {G_Eq_DefI,"LIB_Binocular_GER"};
-        RespawnItems[] = {G_Eq_DefI,"LIB_Binocular_GER"};
+        Items[] = {G_Eq_DefI};
+        RespawnItems[] = {G_Eq_DefI};
+
+        linkedItems[] = {"fow_h_ger_m40_heer_01","fow_v_heer_mg",G_Eq_DefL,"LIB_Binocular_GER"};
+        respawnLinkedItems[] = {"fow_h_ger_m40_heer_01","fow_v_heer_mg",G_Eq_DefL,"LIB_Binocular_GER"};
 
         magazines[] = {G_Mags_K98,"ACE_SpareBarrel","LIB_50Rnd_792x57","LIB_50Rnd_792x57","LIB_50Rnd_792x57"};
         respawnMagazines[] = {G_Mags_K98,"ACE_SpareBarrel","LIB_50Rnd_792x57","LIB_50Rnd_792x57","LIB_50Rnd_792x57"};
@@ -368,6 +373,7 @@
     class 2PzD_G_WHR_39_MGAB : 2PzD_G_WHR_39_Rifle {
         displayName = "MG-Munitionsträger";
         editorPreview = "\2PzD_Custom_German_Units\images\editor previews\2PzD_G_WHR_39_MGAB.jpg"
+        icon = "iconMan";
 
         //Items
         backpack = "fow_b_heer_ammo_belt";
@@ -383,7 +389,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManMedic";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -415,7 +421,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -494,7 +500,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items
@@ -563,7 +569,7 @@
         faction = "2PzD_Ger_WHR_39";
         icon = "iconManLeader";
         scope = 2;
-        scopeArsenal = 0;
+        scopeArsenal = 2;
         scopeCurator = 2;
 
         //Items

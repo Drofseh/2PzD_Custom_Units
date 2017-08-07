@@ -1,19 +1,19 @@
 
-    #include "German_Definitions.hpp"
+    #include "US_Definitions.hpp"
 
-    class CfgPatches {
+class CfgPatches {
     
-    class 2PzD_Custom_German_Units {
+    class 2PzD_Custom_US_Units {
         
         //Add yourself to authors if you contribute. author = {"Wilhelm Haas","Your Name"};
         author = "Wilhelm Haas";
 
         //Add all new 'vehicle' classes to the units array. This will give Zeus access to them.
-        units[] = {WHR_1939};
+        units[] = {US_Army_1939,US_Army_1942,US_Army_1942OpT,US_Army_1943NA};
         weapons[] = {};
         requiredAddons[] = {"haas_wwii_rebalance"};
 
-    };//End 2PzD_Custom_German_Units
+    };//End 2PzD_Custom_US_Units
 
 }; //End CfgPatches
 
@@ -22,7 +22,7 @@ class EventHandlers;
 class CfgFactionClasses {
 
     //All new factions should go in their own files and then be #include here.
-    #include "German_Factions.hpp"
+    #include "US_Factions.hpp"
 
 };
 
@@ -36,10 +36,13 @@ class CfgEditorSubcategories {
 class cfgVehicles {
 
     //Base classes will be placed here for inheritance.
-    class LIB_GER_Soldier_base;
+    class LIB_US_Soldier_base;
 
     //New units will be placed in their own folder and file and then be #include here.
-    #include "units\WHR_1939.hpp"
+    #include "units\US_Army_1939.hpp"
+    #include "units\US_Army_1942.hpp"
+    #include "units\US_Army_1942_Nov_Op_Torch.hpp"
+    #include "units\US_Army_1943_NA.hpp"
 
 }; //End cfgVehicles
 
@@ -47,26 +50,22 @@ class CfgGroups {
 
     //Groups will go in their own folders and files, then be #include in their own side specific class.
 
-    class West {
-        //Axis Forces
+    class Indep {
+        //Allies
 
-        class 2PzD_Wehrmacht_1939 {
+        class 2PzD_US_Army_1939 {
             author = "Wilhelm Haas";
-            name = "!2PzD Wehrmacht 1939";
+            name = "!2PzD US Army 1939";
 
             class Infantry {
                 name = "Infantry";
 
-                #include "compositions\WHR\1939\Squad_Infantry.hpp"
-                #include "compositions\WHR\1939\Company_HQ.hpp"
-                #include "compositions\WHR\1939\Platoon_HQ.hpp"
-                #include "compositions\WHR\1939\Tank_Crew.hpp"
-                #include "compositions\WHR\1939\Team_HMG.hpp"
-                #include "compositions\WHR\1939\Team_Mortar.hpp"
+                //#include "compositions\US_Army\1939\Company_HQ.hpp"
+
             };
+            
+        }; //End 2PzD_US_Army_1939
 
-        };
-
-    }; //End West
+    }; //End Indep
 
 }; //End CfgGroups
