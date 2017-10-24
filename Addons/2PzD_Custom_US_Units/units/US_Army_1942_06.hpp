@@ -1,12 +1,12 @@
 
-    class 2PzD_US_Army_1942_CC : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_CC : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Company Commander";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_CC.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_CC.jpg";
         icon = "iconManOfficer";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -18,14 +18,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_C2 : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_C2 : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Company Executive Officer";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_C2.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_C2.jpg";
         icon = "iconManOfficer";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -37,14 +37,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_CSGT : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_CSGT : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Company First Sergeant";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_CSGT.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_CSGT.jpg";
         icon = "iconManLeader";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -56,14 +56,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_CRTO : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_CRTO : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Company Radio Operator";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_CRTO.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_CRTO.jpg";
         icon = "iconManEngineer";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -75,14 +75,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_PC : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_PC : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Platoon Commander";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_PC.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_PC.jpg";
         icon = "iconManOfficer";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -94,14 +94,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_PSGT : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_PSGT : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Platoon Sergeant";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_PSGT.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_PSGT.jpg";
         icon = "iconManLeader";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -113,14 +113,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_PGde : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_PGde : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Platoon Guide";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_PGde.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_PGde.jpg";
         icon = "iconManLeader";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -132,14 +132,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_Mess : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_Mess : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Messenger";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_Mess.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_Mess.jpg";
         icon = "iconMan";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -151,14 +151,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_Med : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_Med : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Medic";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_Med.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_Med.jpg";
         icon = "iconManMedic";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -170,14 +170,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_SL : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_SL : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Squad Leader";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_SL.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_SL.jpg";
         icon = "iconManLeader";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -189,14 +189,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_S2 : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_S2 : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Assistant Squad Leader";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_S2.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_S2.jpg";
         icon = "iconManLeader";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -208,14 +208,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_Scout : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_Scout : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Scout";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_Scout.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_Scout.jpg";
         icon = "iconMan";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -227,14 +227,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_AR : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_AR : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Automatic Rifleman";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_AR.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_AR.jpg";
         icon = "iconManMG";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -246,14 +246,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_AAR : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_AAR : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Automatic Rifle Assistant";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_AAR.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_AAR.jpg";
         icon = "iconManMG";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -265,14 +265,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_ARAB : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_ARAB : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Automatic Rifle Ammo Bearer";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_ARAB.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_ARAB.jpg";
         icon = "iconMan";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -284,14 +284,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_Rif : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_Rif : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_Rif.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_Rif.jpg";
         icon = "iconMan";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -303,14 +303,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MGTL : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MGTL : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gun Team Leader";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MGTL.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MGTL.jpg";
         icon = "iconManLeader";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -322,14 +322,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MG : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MG : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gunner";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MG.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MG.jpg";
         icon = "iconManMG";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -341,14 +341,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MG_2 : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MG_2 : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gunner (No MG)";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MG_2.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MG_2.jpg";
         icon = "iconManMG";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -360,14 +360,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MGA : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MGA : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gun Assistant";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MGA.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MGA.jpg";
         icon = "iconManMG";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -379,14 +379,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MGA_2 : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MGA_2 : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gun Assistant (No Tripod)";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MGA_2.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MGA_2.jpg";
         icon = "iconManMG";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -398,14 +398,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MGAB : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MGAB : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gun Ammo Bearer";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MGAB.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MGAB.jpg";
         icon = "iconMan";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -417,14 +417,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortTL : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MortTL : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mortar Team Leader";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortTL.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MortTL.jpg";
         icon = "iconManLeader";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -436,14 +436,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortG : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MortG : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mortar Gunner";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortG.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MortG.jpg";
         icon = "iconManExplosive";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -455,14 +455,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortG_2 : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MortG_2 : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mortar Gunner (No Tube)";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortG_2.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MortG_2.jpg";
         icon = "iconManExplosive";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -474,14 +474,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortA : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MortA : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mortar Assistant";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortA.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MortA.jpg";
         icon = "iconManExplosive";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -493,14 +493,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortA_2 : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MortA_2 : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mortar Assistant (No Tripod)";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortA_2.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MortA_2.jpg";
         icon = "iconManExplosive";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -512,14 +512,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortAB : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_MortAB : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mortar Ammo Bearer";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortAB.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_MortAB.jpg";
         icon = "iconMan";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -531,14 +531,71 @@
         };
     };
 
-    class 2PzD_US_Army_1942_VCom : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_BzkaTL : 2PzD_US_Army_Base {
+        author = "Gefr.Haas-2.PzD";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Bazooka Team Leader";
+        side = 2;
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_BzkaTL.jpg";
+        icon = "iconManLeader";
+        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+            class 2PzD_Loadout {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['LIB_M1_Carbine','','','',['LIB_15Rnd_762x33',15],[],''],[],[],['fow_u_us_m41_01_private',[['ACE_fieldDressing',4],['ACE_EntrenchingTool',1],['ACE_Flashlight_MX991',1],['ACE_CableTie',1],['ACE_tourniquet',1]]],['fow_v_us_carbine',[['HandGrenade',1,1],['SmokeShell',1,1],['LIB_15Rnd_762x33',4,15]]],['fow_b_us_rocket_bag',[['LIB_1Rnd_60mm_M6',3,1]]],'H_LIB_US_Helmet_NCO','',[],['','','','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+        };
+    };
+
+    class 2PzD_US_Army_1942_06_BzkaG : 2PzD_US_Army_Base {
+        author = "Gefr.Haas-2.PzD";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Bazooka Gunner";
+        side = 2;
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_BzkaG.jpg";
+        icon = "iconManAT";
+        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+            class 2PzD_Loadout {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['LIB_M1_Carbine','','','',['LIB_15Rnd_762x33',15],[],''],['fow_w_m1a1_bazooka','','','',['LIB_1Rnd_60mm_M6',1],[],''],[],['fow_u_us_m41_01_private',[['ACE_fieldDressing',4],['ACE_EntrenchingTool',1],['ACE_Flashlight_MX991',1],['ACE_CableTie',1],['ACE_tourniquet',1]]],['fow_v_us_carbine',[['LIB_15Rnd_762x33',4,15]]],['fow_b_us_rocket_bag',[['LIB_1Rnd_60mm_M6',2,1]]],'fow_h_us_m1','',[],['ItemMap','','','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+        };
+    };
+
+    class 2PzD_US_Army_1942_06_BzkaA : 2PzD_US_Army_Base {
+        author = "Gefr.Haas-2.PzD";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Bazooka Assistant";
+        side = 2;
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_BzkaA.jpg";
+        icon = "iconManAT";
+        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+            class 2PzD_Loadout {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['LIB_M1_Carbine','','','',['LIB_15Rnd_762x33',15],[],''],[],[],['fow_u_us_m41_01_private',[['ACE_fieldDressing',4],['ACE_EntrenchingTool',1],['ACE_Flashlight_MX991',1],['ACE_CableTie',1],['ACE_tourniquet',1]]],['fow_v_us_carbine',[['LIB_15Rnd_762x33',4,15]]],['fow_b_us_rocket_bag',[['LIB_1Rnd_60mm_M6',3,1]]],'fow_h_us_m1','',[],['ItemMap','','','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+        };
+    };
+
+    class 2PzD_US_Army_1942_06_VCom : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;                                     
         scopeCurator = 2;
         displayName = "Tank Commander";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_VCom.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_VCom.jpg";
         icon = "iconManLeader";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
@@ -550,14 +607,14 @@
         };
     };
 
-    class 2PzD_US_Army_1942_VCrew : 2PzD_US_Army_Base {
+    class 2PzD_US_Army_1942_06_VCrew : 2PzD_US_Army_Base {
         author = "Gefr.Haas-2.PzD";
         scope = 2;
         scopeCurator = 2;
         displayName = "Tank Crew";
         side = 2;
-        faction = "2PzD_US_Army_1942";
-        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_VCrew.jpg";
+        faction = "2PzD_US_Army_1942_06";
+        //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_06_VCrew.jpg";
         icon = "iconManLeader";
         identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
