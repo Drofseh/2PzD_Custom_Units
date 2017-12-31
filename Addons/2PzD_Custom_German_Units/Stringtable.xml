@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="2PzDCU">
+    <Package name="2PzD_Custom_German_Units">
+        <Key ID="STR_2PzD_CC">
+            <Original>Kompanieführer</Original>
+        </Key>
+        <Key ID="STR_2PzD_C2">
+            <Original>Kompanietruppführer</Original>
+        </Key>
+        <Key ID="STR_2PzD_PC">
+            <Original>Zugführer</Original>
+        </Key>
+        <Key ID="STR_2PzD_P2">
+            <Original>Zugtruppführer</Original>
+        </Key>
+        <Key ID="STR_2PzD_MedP">
+            <Original>Krankenträger</Original>
+        </Key>
+        <Key ID="STR_2PzD_SL">
+            <Original>Gruppenführer</Original>
+        </Key>
+        <Key ID="STR_2PzD_S2">
+            <Original>Stellvertretender Gruppenführer</Original>
+        </Key>
+        <Key ID="STR_2PzD_MG">
+            <Original>MG-Richtschütze</Original>
+        </Key>
+        <Key ID="STR_2PzD_MG">
+            <Original>MG-Richtschütze (No MG)</Original>
+        </Key>
+        <Key ID="STR_2PzD_MGA">
+            <Original>MG-Hilfsschütze (No Tripod)</Original>
+        </Key>
+        <Key ID="STR_2PzD_MGA_2">
+            <Original>MG-Hilfsschütze (With tripod)</Original>
+        </Key>
+        <Key ID="STR_2PzD_MGAB">
+            <Original>MG-Munitionsträger</Original>
+        </Key>
+        <Key ID="STR_2PzD_MedS">
+            <Original>Hilfs-Krankenträger</Original>
+        </Key>
+        <Key ID="STR_2PzD_Rif">
+            <Original>Gewehrschütze</Original>
+        </Key>
+        <Key ID="STR_2PzD_MortSL">
+            <Original>Mortar Truppführer</Original>
+        </Key>
+        <Key ID="STR_2PzD_MortG">
+            <Original>Mortar Granatwerferschützen</Original>
+        </Key>
+        <Key ID="STR_2PzD_MortA">
+            <Original>Mortar Munitionsträger</Original>
+        </Key>
+        <Key ID="STR_2PzD_HMGSL">
+            <Original>HMG Truppführer</Original>
+        </Key>
+        <Key ID="STR_2PzD_HMGG">
+            <Original>HMG Richtschütze</Original>
+        </Key>
+        <Key ID="STR_2PzD_HMGA">
+            <Original>HMG Munitionsträger</Original>
+        </Key>
+        <Key ID="STR_2PzD_ATRSL">
+            <Original>Panzerbüchse Truppführer</Original>
+        </Key>
+        <Key ID="STR_2PzD_ATRG">
+            <Original>Panzerbüchse Richtschütze</Original>
+        </Key>
+        <Key ID="STR_2PzD_ATRA">
+            <Original>Panzerbüchse Munitionsträger</Original>
+        </Key>
+        <Key ID="STR_2PzD_VCom">
+            <Original>Besatzungsführer</Original>
+        </Key>
+    </Package>
+</Project>

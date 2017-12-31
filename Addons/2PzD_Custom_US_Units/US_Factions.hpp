@@ -24,7 +24,7 @@
     };
 
     class 2PzD_US_Army_1942 {
-        displayName = "!2PzD US Army 1942";
+        displayName = "!2PzD US Army 1942 (Jan-May)";
         side = 2;
         flag = "\WW2\Core_t\IF_Decals_t\US\flag_USA_co.paa";
         icon = "\WW2\Core_t\IF_Decals_t\US\flag_USA_co.paa";

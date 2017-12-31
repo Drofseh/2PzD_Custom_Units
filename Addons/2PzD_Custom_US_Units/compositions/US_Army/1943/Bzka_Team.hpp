@@ -1,6 +1,6 @@
 
                 class 2PzD_US_Army_1943_BzkaT {
-                    name = "Machine Gun Team";
+                    name = "Bazooka Team";
                     side = 2;
                     faction = "2PzD_US_Army_1943";
                     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
