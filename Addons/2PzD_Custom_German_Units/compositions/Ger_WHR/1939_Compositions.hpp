@@ -1,18 +1,11 @@
 
-        class 2PzD_US_Army_1942 {
+        class 2PzD_Ger_WHR_1939 {
             author = "Wilhelm Haas";
-            name = "!2PzD US Army 1942 (Jan-May)";
+            name = "!2PzD Wehrmacht 1939";
 
             class Infantry {
                 name = "Infantry";
-                #include "1942\Company_HQ.hpp"
-                #include "1942\Platoon_HQ.hpp"
-                #include "1942\Rifle_Squad.hpp"
-                #include "1942\MG_Team.hpp"
-                #include "1942\MG_Team_2.hpp"
-                #include "1942\MortTeam.hpp"
-                #include "1942\MortTeam_2.hpp"
-                #include "1942\VCrew.hpp"
+                //#include "1939\Company_HQ.hpp"
             };
 
             class SpecOps {

@@ -1,7 +1,7 @@
 ## 2PzD Custom Units
 <p align="left">
     <a href="https://github.com/Drofseh/2PzD_Custom_Units/releases/latest">
-        <img src="https://img.shields.io/badge/Version-0.4.0-blue.svg" alt="2PzD Custom Units Version">
+        <img src="https://img.shields.io/badge/Version-0.5.0-blue.svg" alt="2PzD Custom Units Version">
     </a>
     <a href="https://2pzd.net/">
         <img src="https://img.shields.io/badge/2PzD-Website-yellow.svg" alt="2PzD Website">
@@ -9,7 +9,7 @@
 </p>
 <p align="center">
     <a href="https://2pzd.net/">
-    <img src="https://c2.staticflickr.com/6/5524/30201576222_3b9546362d_o.png" width="480">
+        <img src="https://c2.staticflickr.com/6/5524/30201576222_3b9546362d_o.png" width="480">
     </a>
 </p>
 

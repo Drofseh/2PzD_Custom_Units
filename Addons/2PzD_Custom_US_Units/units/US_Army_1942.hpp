@@ -1,14 +1,7 @@
 
-    class 2PzD_US_Army_1942_CC : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Company Commander";
-        side = 2;
+    class 2PzD_US_Army_1942_CC : 2PzD_US_Army_1941_CC {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_CC.jpg";
-        icon = "iconManOfficer";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -18,16 +11,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_C2 : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Company Executive Officer";
-        side = 2;
+    class 2PzD_US_Army_1942_C2 : 2PzD_US_Army_1941_C2 {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_C2.jpg";
-        icon = "iconManOfficer";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -37,16 +23,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_CSGT : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Company First Sergeant";
-        side = 2;
+    class 2PzD_US_Army_1942_CSGT : 2PzD_US_Army_1941_CSGT {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_CSGT.jpg";
-        icon = "iconManLeader";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -56,16 +35,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_CRTO : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Company Radio Operator";
-        side = 2;
+    class 2PzD_US_Army_1942_CRTO : 2PzD_US_Army_1941_CRTO {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_CRTO.jpg";
-        icon = "iconManEngineer";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -75,16 +47,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_PC : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Platoon Commander";
-        side = 2;
+    class 2PzD_US_Army_1942_PC : 2PzD_US_Army_1941_PC {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_PC.jpg";
-        icon = "iconManOfficer";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -94,16 +59,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_PSGT : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Platoon Sergeant";
-        side = 2;
+    class 2PzD_US_Army_1942_PSGT : 2PzD_US_Army_1941_PSGT {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_PSGT.jpg";
-        icon = "iconManLeader";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -113,16 +71,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_PGde : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Platoon Guide";
-        side = 2;
+    class 2PzD_US_Army_1942_PGde : 2PzD_US_Army_1941_PGde {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_PGde.jpg";
-        icon = "iconManLeader";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -132,16 +83,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_Mess : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Messenger";
-        side = 2;
+    class 2PzD_US_Army_1942_Mess : 2PzD_US_Army_1941_Mess {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_Mess.jpg";
-        icon = "iconMan";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -151,16 +95,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_Med : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Medic";
-        side = 2;
+    class 2PzD_US_Army_1942_Med : 2PzD_US_Army_1941_Med {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_Med.jpg";
-        icon = "iconManMedic";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -170,16 +107,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_SL : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Squad Leader";
-        side = 2;
+    class 2PzD_US_Army_1942_SL : 2PzD_US_Army_1941_SL {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_SL.jpg";
-        icon = "iconManLeader";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -189,16 +119,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_S2 : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Assistant Squad Leader";
-        side = 2;
+    class 2PzD_US_Army_1942_S2 : 2PzD_US_Army_1941_S2 {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_S2.jpg";
-        icon = "iconManLeader";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -208,16 +131,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_Scout : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Scout";
-        side = 2;
+    class 2PzD_US_Army_1942_Scout : 2PzD_US_Army_1941_Scout {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_Scout.jpg";
-        icon = "iconMan";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -227,16 +143,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_AR : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Automatic Rifleman";
-        side = 2;
+    class 2PzD_US_Army_1942_AR : 2PzD_US_Army_1941_AR {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_AR.jpg";
-        icon = "iconManMG";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -246,16 +155,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_AAR : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Automatic Rifle Assistant";
-        side = 2;
+    class 2PzD_US_Army_1942_AAR : 2PzD_US_Army_1941_AAR {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_AAR.jpg";
-        icon = "iconManMG";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -265,16 +167,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_ARAB : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Automatic Rifle Ammo Bearer";
-        side = 2;
+    class 2PzD_US_Army_1942_ARAB : 2PzD_US_Army_1941_ARAB {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_ARAB.jpg";
-        icon = "iconMan";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -284,16 +179,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_Rif : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Rifleman";
-        side = 2;
+    class 2PzD_US_Army_1942_Rif : 2PzD_US_Army_1941_Rif {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_Rif.jpg";
-        icon = "iconMan";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -303,16 +191,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MGTL : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Machine Gun Team Leader";
-        side = 2;
+    class 2PzD_US_Army_1942_MGTL : 2PzD_US_Army_1941_MGTL {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MGTL.jpg";
-        icon = "iconManLeader";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -322,16 +203,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MG : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Machine Gunner";
-        side = 2;
+    class 2PzD_US_Army_1942_MG : 2PzD_US_Army_1941_MG {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MG.jpg";
-        icon = "iconManMG";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -341,16 +215,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MG_2 : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Machine Gunner (No MG)";
-        side = 2;
+    class 2PzD_US_Army_1942_MG_2 : 2PzD_US_Army_1941_MG_2 {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MG_2.jpg";
-        icon = "iconManMG";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -360,16 +227,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MGA : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Machine Gun Assistant";
-        side = 2;
+    class 2PzD_US_Army_1942_MGA : 2PzD_US_Army_1941_MGA {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MGA.jpg";
-        icon = "iconManMG";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -379,16 +239,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MGA_2 : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Machine Gun Assistant (No Tripod)";
-        side = 2;
+    class 2PzD_US_Army_1942_MGA_2 : 2PzD_US_Army_1941_MGA_2 {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MGA_2.jpg";
-        icon = "iconManMG";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -398,16 +251,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MGAB : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Machine Gun Ammo Bearer";
-        side = 2;
+    class 2PzD_US_Army_1942_MGAB : 2PzD_US_Army_1941_MGAB {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MGAB.jpg";
-        icon = "iconMan";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -417,16 +263,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortTL : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Mortar Team Leader";
-        side = 2;
+    class 2PzD_US_Army_1942_MortTL : 2PzD_US_Army_1941_MortTL {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortTL.jpg";
-        icon = "iconManLeader";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -436,16 +275,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortG : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Mortar Gunner";
-        side = 2;
+    class 2PzD_US_Army_1942_MortG : 2PzD_US_Army_1941_MortG {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortG.jpg";
-        icon = "iconManExplosive";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -455,16 +287,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortG_2 : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Mortar Gunner (No Tube)";
-        side = 2;
+    class 2PzD_US_Army_1942_MortG_2 : 2PzD_US_Army_1941_MortG_2 {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortG_2.jpg";
-        icon = "iconManExplosive";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -474,16 +299,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortA : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Mortar Assistant";
-        side = 2;
+    class 2PzD_US_Army_1942_MortA : 2PzD_US_Army_1941_MortA {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortA.jpg";
-        icon = "iconManExplosive";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -493,16 +311,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortA_2 : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Mortar Assistant (No Tripod)";
-        side = 2;
+    class 2PzD_US_Army_1942_MortA_2 : 2PzD_US_Army_1941_MortA_2 {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortA_2.jpg";
-        icon = "iconManExplosive";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -512,16 +323,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_MortAB : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Mortar Ammo Bearer";
-        side = 2;
+    class 2PzD_US_Army_1942_MortAB : 2PzD_US_Army_1941_MortAB {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_MortAB.jpg";
-        icon = "iconMan";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -531,16 +335,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_VCom : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;                                     
-        scopeCurator = 2;
-        displayName = "Tank Commander";
-        side = 2;
+    class 2PzD_US_Army_1942_VCom : 2PzD_US_Army_1941_VCom {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_VCom.jpg";
-        icon = "iconManLeader";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -550,16 +347,9 @@
         };
     };
 
-    class 2PzD_US_Army_1942_VCrew : 2PzD_US_Army_Base {
-        author = "Gefr.Haas-2.PzD";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Tank Crew";
-        side = 2;
+    class 2PzD_US_Army_1942_VCrew : 2PzD_US_Army_1941_VCrew {
         faction = "2PzD_US_Army_1942";
         //editorPreview = "\2PzD_Custom_US_Units\images\editor previews\2PzD_US_Army_1942_VCrew.jpg";
-        icon = "iconManLeader";
-        identityTypes[] = { "Head_Euro" , "LanguageENG_F" , "LIB_Glasses" };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
